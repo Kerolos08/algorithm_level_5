@@ -1,0 +1,25 @@
+#pragma once
+#include <iostream>
+#include "clsMyQueueArr.h"
+
+using namespace std;
+
+template <class T>
+class clsMyStackArr : public clsMyQueueArr <T>
+{
+public:
+    void push(T value)
+    {
+        clsMyQueueArr<T> :: _MyArr.InsertAtBeginning(value);
+    }
+
+    T top()
+    {
+        return this->front();
+    }
+
+    T bottom()
+    {
+        return this->back();
+    }
+};
