@@ -26,7 +26,7 @@ Practice-focused course reinforcing data structures through real projects. This 
 - `clsMyStackArr.h` - Array implementation
 - Operations: push, pop, top, bottom
 
-###Projects
+### Projects
 
 **Queue Line Management System** (`QueueProject/`)
 - Ticket queue system for service centers (banks, hospitals, etc.)
